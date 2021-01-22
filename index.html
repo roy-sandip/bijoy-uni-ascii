@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Bijoy - Unicode Converter | বিজয় - ইউনিকোড কনভার্টার</title>
+
+    <meta name="robots" content="index, follow">
+    <meta name="Title" content="Bangla Unicode Convertor;">
+    <meta name="description" content="Start converting bijoy to Unicode by bangla converter web tool. Easy to use this tool will make your Bengali language readable anywhere in web page">
+    <meta name="keywords" content="Bangla converter, bijoy to Unicode">
+    <!-- Start Alexa Certify Javascript -->
+    <link href="css/main1.css" rel="stylesheet" type="text/css">
+    <link href="css/center.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .div_clear {
+            clear: both;
+            border: solid 0px #0000CC;
+        }
+    </style>
+    <script type="text/javascript" src="js/bijoy2uni.js"></script>
+    <script type="text/javascript" src="js/uni2bijoy.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/layout.js"></script>
+    <script type="text/javascript" src="js/count.js"></script>
+    <script type="text/javascript" src="js/js1.js"></script>
+</head>
+<body>
+    <table width="90%" border="0" align="center" bgcolor="#F4F4F4" style="margin: auto;">
+        <tbody>
+            <tr>
+                <td width="100%" align="center">
+                    <table width="100%" border="0">
+                        <tbody>
+                            <tr>
+                                <td align="center" height="80" valign="middle">
+                                    <div style="font-family:Arial, Solaimanlipi, Helvetica, sans-serif;">
+                                        <h1>Bangla Converter</h1>
+                                    </div>
+                                    <p>Bijoy to Uniciode Converter - Programmer (<a href="http://scr.im/findmail" target="_blank">email address</a>), Ministry of Land</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <textarea class="unicode_textarea" id="EDT" name="textarea" autofocus="autofocus" value="" placeholder="ইউনিকোড কি-বোর্ডের লেখা এখানে পেস্ট করুন"></textarea>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" height="60px" valign="middle">
+                                    <div class="convert_button_left">
+                                        <input class="bijoy_button" onclick="ConvertToTextArea(&#39;CONVERTEDT&#39;);" type="button" value="" name="ConvertToAsciiButton">
+                                        <input class="unicode_button" onclick="ConvertFromTextArea(&#39;CONVERTEDT&#39;);" type="button" value="" name="ConvertButton">
+                                        <input class="reset_button" type="button" value="" onclick="ClearInput();">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input readonly="" type="hidden" name="CharsTyped" size="2" style="font-weight:bold; border: 0px solid #2D69AE; color:#808080; text-align:left;" value="0">
+                                        <input readonly="" type="hidden" name="WordsTyped" size="3" style="font-weight:bold; border: 1px solid #2D69AE; color:#808080; text-align:right;" value="0">
+                                        <input readonly="" type="hidden" name="CharsLeft" size="8" value="100000">
+                                        <input readonly="" type="hidden" name="WordsLeft" size="8" value="100000">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <div>
+                                        <textarea class="bijoy_textarea" id="CONVERTEDT" autofocus="autofocus" value="" placeholder="বিজয় কি-বোর্ডের লেখা এখানে পেস্ট করুন"></textarea>
+                                    </div><br>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Bangla Converter is an essential web tool for presenting Bengali language better in webpage at any browser. Generally, as Bengali writers, Journalists and news editors write their journal, news in Bijoy font. But Bijoy Bengali font is not displayed well. So, they need to convert <a href="https://en.wikipedia.org/wiki/Unicode" target="_blank">Unicode</a> for presenting fonts in sophisticated way. Our converter tool helps you in two ways. 
+                                    <br />1.	Bijoy to Unicode
+                                    <br />2.	Unicode to Bijoy
+                                    <br>
+                                    Use: The first box is for Unicode text and 2nd box is for Bijoy text. Paste your text and use middle button according to your needs.
+                                    <br />
+                                    <br />
+                                    Developed and Customized by: Md. Elias Hossain, Programmer, (<a href="http://scr.im/findmail" target="_blank">email address</a>), Ministry of Land.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript">
+        function ClearInput()
+        {
+            document.getElementById("EDT").value='';
+            document.getElementById("CONVERTEDT").value='';
+            document.getElementById("EDT").focus();
+        }
+    </script>
+</body>
+</html>

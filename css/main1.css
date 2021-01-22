@@ -1,0 +1,29 @@
+BODY {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+H1 {
+    MARGIN-BOTTOM: 10px; FONT-WEIGHT: normal
+}
+
+H3 {
+    COLOR: #828c29
+}
+H5 {
+    COLOR: #828c29
+}
+H2 {
+    COLOR: #6f899c
+}
+H4 {
+    COLOR: #6f899c
+}
+H6 {
+    COLOR: #6f899c
+}
+A:link {
+    COLOR: #828c29
+}
+A:visited {
+    COLOR: #828c29
+}
